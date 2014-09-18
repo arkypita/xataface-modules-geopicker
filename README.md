@@ -117,6 +117,9 @@ The data from the map is stored as a JSON object inside the field that is specif
 }
 ```
 
+You can modify data saved by editing "geopicker.js" file at line 142
+
+
 ## Support
 
 Write to [arkypita](mailto:arkypita@bergamo3.it) for support.
