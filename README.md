@@ -65,7 +65,7 @@ i.e. Your `[_modules]` section will look like:
 After you have [obtained your API key](https://developers.google.com/maps/documentation/javascript/tutorial#api_key), add the following section to your `conf.ini` file:
 
 ```
-[modules_google_maps]
+[modules_geopicker]
 	key="YOUR KEY HERE"
 ```
 
@@ -92,13 +92,10 @@ Then in your `tables/destinations/fields.ini` file you could add:
 	widget:type=geopicker
 ```
 
-Now, if try to create a new record in the `destinations` table via your Xataface application, you should notice that there is now a Geopicker widget where the `geodata` field is displayed (as shown below):
-
-![Figure 1: Geopicker widget on new record form](screenshots/new-record-form.png)
+Now, if try to create a new record in the `destinations` table via your Xataface application, you should notice that there is now a Geopicker widget where the `geodata` field is displayed.
 
 Additionally, if you save the record, you'll notice that the point and geocoding information is retained on the edit form. Notice, also, that if you visit details view for a record, it will show you the map at the picked position.
 
-![Figure 2: Map field shown in details view](screenshots/details-view.png)
 
 ## Storage Format
 
