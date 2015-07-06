@@ -49,14 +49,14 @@ Alternatively you could have just downloaded the ZIP file and copied it into the
 In your application's conf.ini file's `[_modules]` section, add the following line:
 
 ```
-geopicker=modules/geopicker/geopicker.php
+modules_geopicker=modules/geopicker/geopicker.php
 ```
 
 i.e. Your `[_modules]` section will look like:
 
 ```
 [_modules]
-	geopicker=modules/geopicker/geopicker.php
+	modules_geopicker=modules/geopicker/geopicker.php
 	… other modules entries …
 ```
 
